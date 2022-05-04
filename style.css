@@ -1,0 +1,149 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Quicksand:wght@300&display=swap');
+
+#corsivo{
+    color: rgb(255, 5, 143);
+    font-family:'Beau Rivage', cursive;
+}
+
+html, body{
+    font-family: 'Quicksand', sans-serif;
+    padding: auto;
+    margin: auto;
+}
+
+div.container-fluid {   
+    padding: 1.5rem;
+    margin: 0;
+}
+
+.navbar {
+    height: 120px;
+    background-color: aliceblue;
+}
+
+img.logo {
+    margin-right: 20px;
+}
+.btn {
+    color: aliceblue;
+    background-color: hotpink;
+}
+.btn:hover {
+    color: hotpink;
+    background-color: aliceblue;
+}
+
+/*favicon*/
+.favicon {
+    font-size: 2em;
+    padding: 1.5rem;
+   
+    }
+.fa-facebook,
+.fa-instagram,
+.fa-whatsapp,
+.fa-telegram {
+    color: hotpink;     
+    transition-duration: 0.2s;
+  }
+   
+.fa-facebook:hover, 
+.fa-whatsapp:hover,
+.fa-instagram:hover,
+.fa-telegram:hover {
+    color:rgb(255, 5, 143);
+    transform: scale(1.2);
+  }
+
+.carousel-item {
+    height: 32rem;
+    background-color: aliceblue;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+
+#MyCarousel2{
+    margin: auto;
+    height: 300px;
+    width: 600px;
+}
+
+#two{
+    width: 600px;
+    height: 300px;
+    background-color: aliceblue;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+h5{
+    padding: 8px;
+    width: 250px;
+    background-color: aliceblue;
+    border-radius: 25px;
+    color: hotpink;
+}
+
+footer,
+.name-hot-pink{
+    color: rgb(255, 5, 143);
+    background-color: aliceblue;
+}
+
+@media (max-width: 992px){
+    .logo{
+      width: 100px;    
+    }
+    .favicon{
+    font-size: 1.5em;
+    }
+    .fa-facebook,
+    .fa-instagram,
+    .fa-whatsapp,
+    .fa-telegram{
+      width: 15px;
+    } 
+  }
+  
+  @media (max-width: 768px) {
+    .logo{
+      width: 80px;
+    }
+    .favicon{
+        font-size: 1em;
+        }
+    .fa-facebook,
+    .fa-instagram,
+    .fa-whatsapp,
+    .fa-telegram{
+      width: 10px;
+    }
+   
+  }
+  
+  @media (max-width: 576px){
+    .logo{
+      width: 50px;    
+    }
+    .favicon{
+        font-size: 1em;
+        }
+    .fa-facebook,
+    .fa-instagram,
+    .fa-whatsapp,
+    .fa-telegram{
+      width: 10px;
+    }
+   
+  }
