@@ -87,6 +87,11 @@ h5{
     color: hotpink;
 }
 
+
+footer {
+    margin-top: 50pt;
+} 
+
 footer,
 .name-hot-pink{
     color: rgb(255, 5, 143);
